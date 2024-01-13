@@ -161,18 +161,18 @@ export const projects = [
         link: 'https://movix-kappa-nine.vercel.app/',
     },
     {
-        iconUrl: chat,
-        theme: 'btn-back-green',
-        name: 'Chat App',
-        description: 'Chat App where you can register your account and talk with others people in real time. Using socket.io to send the mmessages in real time and then storage them in mongoDB if you want to open the conversation antoher day.',
-        link: 'https://github.com/Empyritz/real-time-chat-app',
-    },
-    {
         iconUrl: chaleco,
         theme: 'btn-back-blue',
         name: 'Lifevest Kraken Page',
         description: 'Company page for life jacket manufacturers, designed specifically for them',
         link: 'https://github.com/FabianNP/Kraken',
+    },
+    {
+        iconUrl: chat,
+        theme: 'btn-back-green',
+        name: 'Chat App',
+        description: 'Chat App where you can register your account and talk with others people in real time. Using socket.io to send the mmessages in real time and then storage them in mongoDB if you want to open the conversation antoher day.',
+        link: 'https://empyritz.github.io/portafolio/#/project/7',
     },
     {
         iconUrl: list,
@@ -193,6 +193,6 @@ export const projects = [
         theme: 'btn-back-yellow',
         name: 'Firebase Authentication',
         description: 'React App created with firebase to manage the authentication of the page. Using react-router to display the differents paths and helping with securtiy with protected routes and dynamics routes for the customization of user page',
-        link: 'https://github.com/Empyritz/LogIn-Form-Flow',
+        link: 'https://empyritz.github.io/portafolio/#/project/1',
     }
 ];
