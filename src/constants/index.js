@@ -165,7 +165,7 @@ export const projects = [
         theme: 'btn-back-blue',
         name: 'Lifevest Kraken Page',
         description: 'Company page for life jacket manufacturers, designed specifically for them',
-        link: 'https://github.com/FabianNP/Kraken',
+        link: 'https://kraken-five.vercel.app/',
     },
     {
         iconUrl: chat,
