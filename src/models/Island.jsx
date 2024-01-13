@@ -99,8 +99,12 @@ const Island = ({isRotating, setIsRotating, setCurrentStage,...props}) => {
        * 2. (rotation % (2 * Math.PI)) + 2 * Math.PI adds 2 * Math.PI to the result from step 1.
        * 3.Finally, ((rotation % (2 * Math.PI)) + 2 * Math.PI) % (2 * Math.PI) applies another modulo operation to the value obtained in step 2. This step  guarantees that the value always stays whithin th range of[ 0 to 2 * Math.PI], which is equivalent to a full circle in radians.
        */
-      const normalizedRotation = ((rotation % (2 * Math.PI)) + 2 * Math.PI % (2 * Math.PI))
-      console.log(normalizedRotation)
+      let normalizedRotation = 0
+      if(rotation < 0){
+        normalizedRotation = ((rotation % (2 * Math.PI)) + 2 * Math.PI)
+      }else{
+        normalizedRotation = (rotation % (2 * Math.PI))
+      }
       // console.log((rotation % (2 * Math.PI)))
       // Set the current stage based on the island´s orientation 
       switch (true) {
